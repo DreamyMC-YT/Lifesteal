@@ -1,8 +1,10 @@
 pluginManagement {
     repositories {
-        maven { url 'https://maven.fabricmc.net/' }
         gradlePluginPortal()
+        maven { url 'https://maven.fabricmc.net/' }
+        maven { url 'https://maven.shedaniel.me/' }
         mavenCentral()
     }
 }
+
 rootProject.name = 'gradle wrapper'
