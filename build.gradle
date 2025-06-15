@@ -23,6 +23,11 @@ dependencies {
 
 loom {
     splitEnvironmentSourceSets()
+
+    // REQUIRED: declare Minecraft version
+    minecraft {
+        version "1.21.1"
+    }
 }
 
 tasks.withType(JavaCompile).configureEach {
