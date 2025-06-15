@@ -20,15 +20,15 @@ dependencies {
     // Fabric Loader
     modImplementation "net.fabricmc:fabric-loader:0.15.11"
 
-    // Fabric API
+    // Fabric Api
     modImplementation "net.fabricmc.fabric-api:fabric-api:0.126.1+1.21.1"
 
     // Cloth Config
     modImplementation "me.shedaniel.cloth:cloth-config-fabric:18.0.145+fabric"
 
-    // Auto Config
+    // AutoConfig
     modImplementation "me.shedaniel.autoconfig:auto-config1u:4.6.1"
-    include "me.shedaniel.autoconfig:auto-config1u:4.6.1"
+
 }
 
 loom {
